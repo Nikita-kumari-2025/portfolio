@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">"
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(37, 36, 39);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100;
+            background-color: rgb(225, 96, 49);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(252, 192, 127);
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(252, 192, 127);
+            height: 1.2px;
+            margin: 30px 84px;
+        }
+
+        .left {
+            font-size: 1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftS {
+            justify-content: left;
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+        .leftS .button{
+            padding: 40px 0;
+        }
+        .leftS .btn{
+            padding: 12px;
+            background-color: rgb(223, 66, 42);color: white;
+            border-radius: 10px;
+            border: 2px solid white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .leftS .btn a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .rights img {
+            margin: 55px 0;
+            width: 90%;
+        }
+
+        .orange {
+            color: rgb(255, 99, 39);
+        }
+
+        .text-gray {
+            color: rgb(255, 99, 75);
+        }
+
+        #element {
+            color: rgb(255, 96, 39);
+        }
+
+        .Secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .Secondsection h1 {
+            font-size: 1.5rem;
+        }
+
+        .Secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 55px 0px;
+            display: flex;
+        }
+
+        .Secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            background: rgb(255, 166, 0);
+            margin: 0 180px;
+        }
+
+        .image-top {
+            width: 45px;
+            position: relative;
+
+            top: -52px;
+            left: -2px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 28px;
+            width: 250px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 30px;
+            width: 305px;
+            font-size: 15px;
+            color: orange;
+        }
+
+        .footer {
+            background-color: rgb(255, 90, 30);
+            display: flex;
+            padding: 40px 122px;
+            justify-content: space-evenly;
+        }
+        .footer > div{
+            width: 220px;
+        }
+        .footer .footer-second ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .footer .footer-third ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        footer .footer-end{
+            text-align: center;
+            padding: 12px 0;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nikita's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftS">Hello! My Name is <span class="orange">Nikita Kumari.</span>
+                <div>This is my</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="Niki_Resume.pdf">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Nikita-kumari-2025">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rights"><img src="pg1.jpg" alt=""></div>
+        </section>
+        <hr>
+        <section class="Secondsection">
+            <span class="text-gray">Journey so far ....!</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">Web Development
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Accessed and troubleshoot the concept of Html, Css and a basics of javascript to build a
+                                webpage. </li>
+                            <li>Build a page like forms and clone</li>
+                            <li>Created a Portfolio</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo.png" alt="">
+                    <div class="vertical-title">Skill-Cum-Entrepreneurship development program on </div>
+                    <div class="vertical-desc">An IoT based Automation for Energy Efficient Mining System (04-08 Dec 23)
+                        <ul>
+                            <li>Started with LED bulbs to blink, toogle and control the brightness of two toggling
+                                bulbs. </li>
+                            <li>Explored LDR sensors with practicals.</li>
+                            <li>Conducted a program for DHT11 with practical to detect temperature and humidity.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ybi.png" alt="">
+                    <div class="vertical-title">Data Science and Machine Learning</div>
+                    <div class="vertical-desc">Internship from Ybi Foundation on Advanced Data Science and Artificial
+                        Intelligence (April-May-July 2024)
+                        <ul>
+                            <li>Firstly Tained in Fundamentals of Python Programming with some sets of library.</li>
+                            <li>Explored various types of modelling </li>
+                            <li>Developed a real time projects like prediction of rainfall, Chance of admission, based
+                                on the given data.</li>
+                            <li>Accessed all sets of supervised machine learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nikita's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/nikita-kumari-9a3461234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></li>
+                    <li><a href="https://www.hackerrank.com/profile/nikitackd123">Hackerrank</a></li>
+                    <li><a href="https://medium.com/me/settings/account?source=user_profile_page---user_sidebar-------------------2cd004464655---------------#profileInformation"> Medium </a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-end">Copyright &#169; Nikita's Portfolio.com | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Portfolio', ' First Project.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
